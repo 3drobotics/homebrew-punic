@@ -5,7 +5,7 @@ class Punic < Formula
   sha256 "a526fed5d0aefc2d147e664b03f714dc32e2e18f5ee48dfca8b687c703c55c93"
 
   depends_on "libyaml"
-#  depends_on "python"
+  depends_on :python
 
   resource "affirm" do
     url "https://files.pythonhosted.org/packages/5d/93/7ef39cb4db23550b041c79052b53e8594e92f6288369cec7ef572a935c5c/affirm-0.9.2.tar.gz"
@@ -70,11 +70,6 @@ class Punic < Formula
   resource "prompt_toolkit" do
     url "https://files.pythonhosted.org/packages/23/be/4876b52d5cc159cbd4b0ff6e7aa419a26470849a43a8f647857a4a24467b/prompt_toolkit-1.0.13.tar.gz"
     sha256 "33d68ca09f76cd73287fde7df5748ffacf26a8238dd61ee81ac50860ea7c6776"
-  end
-
-  resource "punic" do
-    url "https://files.pythonhosted.org/packages/84/37/af1fee6ba8f4c197b37479e5a27b50561b05d8febf7f47ceb24845b47059/punic-0.2.7.tar.gz"
-    sha256 "96e805d3ce33a632694a7a165fc6b93d751f21efca0b58839c8b2063af6da75a"
   end
 
   resource "PyYAML" do
