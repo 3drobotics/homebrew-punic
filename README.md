@@ -12,3 +12,7 @@ homebrew tap for http://github.com/schwa/punic
 * Install punic:
 
 `brew install punic`
+
+## Notes
+
+http://docs.brew.sh/Python-for-Formula-Authors.html
