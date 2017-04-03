@@ -1,8 +1,8 @@
 class Punic < Formula
   desc "Clean room reimplementation of Carthage tool"
   homepage "http://github.com/schwa/punic"
-  url "https://github.com/schwa/punic/archive/0.2.8.tar.gz"
-  sha256 "a526fed5d0aefc2d147e664b03f714dc32e2e18f5ee48dfca8b687c703c55c93"
+  url "https://github.com/schwa/punic/archive/0.2.9.tar.gz"
+  sha256 "d2fb0bca0305914d49f67368569afb0984b2c7b0e50cc470e34000355b1e02db"
 
   depends_on "libyaml"
   depends_on :python
