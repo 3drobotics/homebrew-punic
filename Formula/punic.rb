@@ -5,7 +5,7 @@ class Punic < Formula
   sha256 "c5e83050803b1c1f4d236f93101adf97da9c8c6a1ca2a3dd275c0010d1f7b9c4"
 
   depends_on "libyaml"
-  depends_on :python
+  depends_on "python"
 
   resource "affirm" do
     url "https://files.pythonhosted.org/packages/5d/93/7ef39cb4db23550b041c79052b53e8594e92f6288369cec7ef572a935c5c/affirm-0.9.2.tar.gz"
