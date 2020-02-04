@@ -1,8 +1,8 @@
 class Punic < Formula
   desc "Clean room reimplementation of Carthage tool"
   homepage "http://github.com/3drobotics/punic"
-  url "https://github.com/3drobotics/punic/archive/0.2.11.tar.gz"
-  sha256 "2d25dcc7648d5cf24e8a77a66cd7b50083410902a01703a81122115f904ffdbd"
+  url "https://github.com/3drobotics/punic/archive/0.2.13.tar.gz"
+  sha256 "84ce22ffa5425cb953551aeff09283c874ea701a20c6dbf79172d1d7e9d7304f"
 
   depends_on "libyaml"
   depends_on "python@2" if MacOS.version <= :snow_leopard
