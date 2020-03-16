@@ -5,6 +5,7 @@ class Punic < Formula
   sha256 "f96ce5ce2c6c80a792dee40cd4b3e8a55157278249341ad435560c690be91e71"
 
   depends_on "libyaml"
+  depends_on "python"
   depends_on "python@2" if MacOS.version <= :snow_leopard
 
   resource "affirm" do
