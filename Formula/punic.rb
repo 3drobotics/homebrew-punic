@@ -1,11 +1,11 @@
 class Punic < Formula
   desc "Clean room reimplementation of Carthage tool"
   homepage "http://github.com/3drobotics/punic"
-  url "https://github.com/3drobotics/punic/archive/0.2.13.tar.gz"
-  sha256 "f96ce5ce2c6c80a792dee40cd4b3e8a55157278249341ad435560c690be91e71"
+  url "https://github.com/3drobotics/punic/archive/0.2.14.tar.gz"
+  sha256 "eebea107e769fdec0595c0f26f8bdc680b825f2fa08bc0ecb2e2a82059981e88"
 
   depends_on "libyaml"
-  depends_on "python@2" if MacOS.version <= :snow_leopard
+  depends_on "python"
 
   resource "affirm" do
     url "https://files.pythonhosted.org/packages/5d/93/7ef39cb4db23550b041c79052b53e8594e92f6288369cec7ef572a935c5c/affirm-0.9.2.tar.gz"
@@ -73,8 +73,8 @@ class Punic < Formula
   end
 
   resource "PyYAML" do
-    url "https://files.pythonhosted.org/packages/4a/85/db5a2df477072b2902b0eb892feb37d88ac635d36245a72a6a69b23b383a/PyYAML-3.12.tar.gz"
-    sha256 "592766c6303207a20efc445587778322d7f73b161bd994f227adaa341ba212ab"
+    url "https://files.pythonhosted.org/packages/64/c2/b80047c7ac2478f9501676c988a5411ed5572f35d1beff9cae07d321512c/PyYAML-5.3.1.tar.gz"
+    sha256 "b8eac752c5e14d3eca0e6dd9199cd627518cb5ec06add0de9d32baeee6fe645d"
   end
 
   resource "requests" do
@@ -98,8 +98,8 @@ class Punic < Formula
   end
 
   resource "wcwidth" do
-    url "https://files.pythonhosted.org/packages/55/11/e4a2bb08bb450fdbd42cc709dd40de4ed2c472cf0ccb9e64af22279c5495/wcwidth-0.1.7.tar.gz"
-    sha256 "3df37372226d6e63e1b1e1eda15c594bca98a22d33a23832a90998faa96bc65e"
+    url "https://files.pythonhosted.org/packages/25/9d/0acbed6e4a4be4fc99148f275488580968f44ddb5e69b8ceb53fc9df55a0/wcwidth-0.1.9.tar.gz"
+    sha256 "ee73862862a156bf77ff92b09034fc4825dd3af9cf81bc5b360668d425f3c5f1"
   end
 
   include Language::Python::Virtualenv
